@@ -19,7 +19,6 @@ class MealTableViewController: UITableViewController{
         // load Sample Data
         // Use the edit button item provided by the table view controller.
         navigationItem.leftBarButtonItem = editButtonItem
-
         tableView.isUserInteractionEnabled = true
         // load any saved meals, otherwised load sample data
         if let meallist = loadMeals() {
